@@ -110,6 +110,11 @@ body{background-color: #eee;}
     right:-6px;
     cursor: default;
 }
+@media{
+    .siteList .site .close{
+        display: block;
+    }
+}
 .siteList .site .close .icon{
     width: 20px;
     height: 20px;
