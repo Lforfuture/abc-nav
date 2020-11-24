@@ -43,13 +43,18 @@ body{background-color: #eee;}
     border:2px solid lightpink;
 }
 .header .searchForm > button{
-    font-size:18px;
+    cursor: pointer;
+    font-size:20px;
     white-space: nowrap;
     width: 20%;
     color:#fff;
     border:none;
     border-radius: 4px;
     background-color: #4662d9;
+    transition: all 0.3s;
+}
+.header .searchForm > button:hover{
+    background-color: #1338dd;
 }
 .header .searchForm >button:focus{
     outline: none;

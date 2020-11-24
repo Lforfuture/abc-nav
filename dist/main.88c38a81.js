@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({6:[function(require,module,exports) {
+})({3:[function(require,module,exports) {
 var $siteList = $('.siteList');
 var $lastLi = $siteList.find('li.lastLi');
 var x = localStorage.getItem('x');
@@ -171,5 +171,5 @@ $(document).on('keypress', function (e) {
         }
     }
 });
-},{}]},{},[6], null)
+},{}]},{},[3], null)
 //# sourceMappingURL=main.88c38a81.map
