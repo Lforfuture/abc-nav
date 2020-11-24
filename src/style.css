@@ -104,15 +104,14 @@ body{background-color: #eee;}
     display: block;
 }
 .siteList .site .close{
-    display: none;
     position: absolute;
     top: -6px;
     right:-6px;
     cursor: default;
 }
-@media{
+@media(min-width: 500px){
     .siteList .site .close{
-        display: block;
+        display: none;
     }
 }
 .siteList .site .close .icon{
